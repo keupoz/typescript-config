@@ -6,7 +6,6 @@
         "moduleResolution": "node",
         "newLine": "lf",
         "noEmit": true,
-        "noEmitHelpers": true,
         "noEmitOnError": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
@@ -18,7 +17,8 @@
         "strictBindCallApply": true,
         "strictFunctionTypes": true,
         "strictNullChecks": true,
-        "strictPropertyInitialization": true
+        "strictPropertyInitialization": true,
+        "target": "ES6"
     },
     "exclude": ["node_modules", "dist"]
 }

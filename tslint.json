@@ -26,7 +26,6 @@
                 ".*": "kebab-case"
             }
         ],
-        "forin": true,
         "import-spacing": true,
         "indent": [true, "spaces", 4],
         "interface-name": [true, "always-prefix"],
