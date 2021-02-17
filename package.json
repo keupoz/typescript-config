@@ -1,6 +1,6 @@
 {
     "name": "@keupoz/typescript-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Keupoz' TypeScript predefined configs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
