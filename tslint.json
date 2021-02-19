@@ -47,7 +47,6 @@
         "newline-before-return": true,
         "newline-per-chained-call": true,
         "no-angle-bracket-type-assertion": true,
-        "no-any": true,
         "no-arg": true,
         "no-consecutive-blank-lines": true,
         "no-default-export": true,
@@ -73,7 +72,6 @@
         "no-redundant-jsdoc": true,
         "no-reference": true,
         "no-reference-import": true,
-        "no-require-imports": true,
         "no-return-await": true,
         "no-shadowed-variable": true,
         "no-sparse-arrays": true,
@@ -89,12 +87,10 @@
         "no-unnecessary-initializer": true,
         "no-unnecessary-qualifier": true,
         "no-unnecessary-type-assertion": true,
-        "no-unsafe-any": true,
         "no-unsafe-finally": true,
         "no-unused-expression": true,
         "no-unused-variable": true,
         "no-var-keyword": true,
-        "no-var-requires": true,
         "no-void-expression": [true, "ignore-arrow-function-shorthand"],
         "number-literal-format": true,
         "object-literal-key-quotes": [true, "as-needed"],
@@ -171,20 +167,6 @@
         "unified-signatures": true,
         "use-default-type-parameter": true,
         "use-isnan": true,
-        "variable-name": [true, "check-format", "require-const-for-all-caps"],
-        "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-module",
-            "check-separator",
-            "check-rest-spread",
-            "check-type",
-            "check-typecast",
-            "check-type-operator",
-            "check-preblock",
-            "check-postbrace"
-        ]
+        "variable-name": [true, "check-format", "require-const-for-all-caps"]
     }
 }

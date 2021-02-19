@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
         "alwaysStrict": true,
         "checkJs": true,
         "lib": ["ES6", "DOM"],
