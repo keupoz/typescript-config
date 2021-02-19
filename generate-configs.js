@@ -1,4 +1,4 @@
-#!/usr/env/bin node
+#!/usr/bin/env node
 
 const fs = require("fs"),
     { name } = require("./package.json");
