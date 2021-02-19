@@ -11,9 +11,7 @@
     },
     "files": [
         "LICENSE",
-        "tsconfig.js",
         "tsconfig.json",
-        "tslint.js",
         "tslint.json"
     ],
     "keywords": [
