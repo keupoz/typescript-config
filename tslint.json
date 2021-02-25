@@ -72,11 +72,7 @@
         "number-literal-format": true,
         "object-literal-key-quotes": [true, "as-needed"],
         "object-literal-shorthand": true,
-        "object-literal-sort-keys": [
-            true,
-            "match-declaration-order",
-            "shorthand-first"
-        ],
+        "object-literal-sort-keys": [true, "ignore-case", "shorthand-first"],
         "one-line": [
             true,
             "check-catch",
