@@ -45,7 +45,7 @@
         "no-dynamic-delete": true,
         "no-empty-interface": true,
         "no-for-in-array": true,
-        "no-implicit-dependencies": true,
+        "no-implicit-dependencies": [true, "dev", "optional"],
         "no-internal-module": true,
         "no-irregular-whitespace": true,
         "no-misused-new": true,
