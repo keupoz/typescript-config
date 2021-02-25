@@ -88,7 +88,6 @@
         "ordered-imports": true,
         "prefer-conditional-expression": [true, "check-else-if"],
         "prefer-const": true,
-        "prefer-function-over-method": true,
         "prefer-method-signature": true,
         "prefer-object-spread": true,
         "prefer-readonly": true,
