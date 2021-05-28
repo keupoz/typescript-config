@@ -10,6 +10,7 @@
         "noEmit": true,
         "noEmitOnError": true,
         "noImplicitAny": true,
+        "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noPropertyAccessFromIndexSignature": true,
