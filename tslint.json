@@ -22,8 +22,6 @@
         "jsdoc-format": [true, "check-multiline-start"],
         "label-position": true,
         "linebreak-style": [true, "LF"],
-        "match-default-export-name": true,
-        "max-line-length": [true, 100],
         "member-access": [true, "check-accessor", "check-parameter-property"],
         "member-ordering": [
             true,
