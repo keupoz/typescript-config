@@ -1,17 +1,13 @@
 #!/usr/bin/env node
 
-const fs = require("fs"),
-    { name } = require("./package.json");
+const fs = require('fs')
+const { name } = require('./package.json')
 
 /** @param {any} obj */
-function json(obj) {
-    return `${JSON.stringify(obj, null, 4)}\n`;
+function json (obj) {
+  return `${JSON.stringify(obj, null, 4)}\n`
 }
 
-fs.writeFileSync("tsconfig.json", json({
-    extends: `${name}/tsconfig.json`
-}));
-
-fs.writeFileSync("tslint.json", json({
-    extends: `${name}/tslint.json`
-}));
+fs.writeFileSync('tsconfig.json', json({
+  extends: `${name}/tsconfig.json`
+}))
